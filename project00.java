@@ -6,7 +6,7 @@ class Encrypt_Decrypt{
 	String result;
 	String val;
 	String res;
-	int res1;
+	int res1; //this is my encryption
 	void Encrypt(){
 	      System.out.println("Input your message: ");
 	      String stri = input.next();
@@ -20,7 +20,7 @@ class Encrypt_Decrypt{
 	      result = sb.toString();
 	      System.out.println("Input password (must be greater than 8 characters) :" );
 	      StringBuffer sb1 = new StringBuffer();
-	      
+	      //converting string to correcter array
 	  
 	      int s=1;
 	      String string1 = input.next();
